@@ -8,10 +8,19 @@
     src: url("../fonts/arial-nova-light.ttf");
 }
 
+@font-face {
+    font-family: "rift-soft-bold";
+    src: url("../fonts/rift-soft-bold.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header-section {
@@ -45,7 +54,7 @@
 .text-page-block h2 {
     text-align: center;
     margin-bottom: 16px;
-    font-family: arial-nova-bold, sans-serif;
+    font-family: rift-soft-bold, sans-serif;
 }
 
 .navigation-bar {
@@ -57,7 +66,8 @@
 
 .navigation-bar a {
     margin: 16px;
-    font-family: arial-nova-bold, sans-serif;
+    color: #000000;
+    font-family: rift-soft-bold, sans-serif;
 }
 
 footer {
@@ -68,5 +78,4 @@ footer {
 
 footer a {
     color: #8C8C8C;
-    text-decoration: none;
 }
