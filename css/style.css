@@ -39,11 +39,26 @@ section {
     align-content: center;
 }
 
+#figure_left {
+    height: 80vh;
+    position: absolute;
+    left: 32px;
+    top: 30vh;
+}
+
+#figure_right {
+    height: 80vh;
+    position: absolute;
+    right: 32px;
+    top: 30vh;
+}
+
 
 .content-section {
     background-color: #000000;
     background-image: url('../images/background_pattern_grey.png');
     border-color: #000000;
+    padding-top: 64px;
     display: flex;
     flex-direction: column;
     justify-content: center;
