@@ -32,14 +32,17 @@ section {
     height: 100vh;
     background-color: #FFF69B;
     background-image: url('../images/background_pattern_yellow.png');
-    background-size: cover;
     border-color: #FFF69B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
+
 
 .content-section {
     background-color: #000000;
     background-image: url('../images/background_pattern_grey.png');
-    background-size: cover;
     border-color: #000000;
     display: flex;
     flex-direction: column;
@@ -87,4 +90,26 @@ footer {
 
 footer a {
     color: #8C8C8C;
+}
+
+.sponsors-block {
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 64px;
+    white-space: nowrap;
+    width: 40%;
+    border: 16px solid #FFF69B;
+    align-self: center;
+}
+
+.sponsors-block img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    margin: 4%;
+}
+
+#logo {
+    max-width: 20%;
+    align-self: center;
 }
