@@ -40,17 +40,19 @@ section {
 }
 
 #figure_left {
-    height: 80vh;
+    height: 80%;
     position: absolute;
     left: 32px;
-    top: 30vh;
+    top: 30%;
+    z-index: 2;
 }
 
 #figure_right {
-    height: 80vh;
+    height: 80%;
     position: absolute;
     right: 32px;
-    top: 30vh;
+    top: 30%;
+    z-index: 2;
 }
 
 
@@ -115,6 +117,7 @@ footer a {
     width: 40%;
     border: 16px solid #FFF69B;
     align-self: center;
+    z-index: 4;
 }
 
 .sponsors-block img {
@@ -127,4 +130,5 @@ footer a {
 #logo {
     max-width: 20%;
     align-self: center;
+    z-index: 4;
 }
