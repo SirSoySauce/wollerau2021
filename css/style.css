@@ -39,7 +39,7 @@ section {
     align-content: center;
 }
 
-#figure_left {
+#figure-left {
     height: 80%;
     position: absolute;
     left: 32px;
@@ -47,7 +47,7 @@ section {
     z-index: 2;
 }
 
-#figure_right {
+#figure-right {
     height: 80%;
     position: absolute;
     right: 32px;
@@ -162,7 +162,7 @@ footer a {
         z-index: 4;
     }
 
-    #figure_left, #figure_right {
+    #figure-left, #figure-right {
         display: none;
     }
 
