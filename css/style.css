@@ -103,6 +103,10 @@ section {
     margin-top: 32px;
 }
 
+.single-button-bar {
+    justify-content: center;
+}
+
 .button-bar button {
     background-color: #FFF69B;
     border: none;
