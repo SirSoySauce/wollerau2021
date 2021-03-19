@@ -1,5 +1,5 @@
-# wollerau2020
+# wollerau2021
 
-Information page for the "Steinstossen & Steinheben SM 2020" in Wollerau SZ.
+Information page for the "Steinstossen & Steinheben SM 2021" in Wollerau SZ.
 
 
