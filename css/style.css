@@ -101,9 +101,19 @@ section {
     margin: 1em 0;
 }
 
-.text-page-block .google-maps-embedding {
-    width: 60%;
-    margin: auto;
+.google-maps-embedding {
+    overflow: hidden;
+    padding-bottom: 60%;
+    position: relative;
+    height: 0;
+}
+
+.google-maps-embedding iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 .navigation-bar, .button-bar {
@@ -186,7 +196,7 @@ footer a {
         padding-top: 0;
     }
 
-    .sponsors-block {
+    .sponsors-block, .google-maps-embedding {
         width: 100%;
         margin-top: 0;
     }
@@ -202,7 +212,7 @@ footer a {
         display: none;
     }
 
-    @media only screen and (orientation:landscape) {
+    @media only screen and (orientation: landscape) {
         .sponsors-block {
             width: 60%;
         }
