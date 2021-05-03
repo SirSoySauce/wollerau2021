@@ -96,6 +96,16 @@ section {
     margin-block-end: 1em;
 }
 
+.text-page-block .full-size-image {
+    width: 100%;
+    margin: 1em 0;
+}
+
+.text-page-block .google-maps-embedding {
+    width: 60%;
+    margin: auto;
+}
+
 .navigation-bar, .button-bar {
     display: flex;
     justify-content: space-between;
