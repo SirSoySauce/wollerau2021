@@ -92,6 +92,10 @@ section {
     font-family: rift-soft-bold, sans-serif;
 }
 
+.text-page-block p {
+    margin-block-end: 1em;
+}
+
 .navigation-bar, .button-bar {
     display: flex;
     justify-content: space-between;
