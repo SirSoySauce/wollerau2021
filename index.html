@@ -14,8 +14,16 @@
 </head>
 <body>
 <section class="header-section">
-    <img alt="Silhouette eines Steinstössers" id="figure-left" src="images/figure_left.png" title="Figure Left">
-    <img alt="Silhouette eines Steinhebers" id="figure-right" src="images/figure_right.png" title="Figure Right">
+    <picture>
+        <source media="(min-width: 1324px)" srcset="images/figure_left.png">
+        <source media="(max-width: 1323px)" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==" sizes="100%">
+        <img alt="Silhouette eines Steinstössers" id="figure-left" src="images/figure_left.png" title="Figure Left">
+    </picture>
+    <picture>
+        <source media="(min-width: 1324px)" srcset="images/figure_right.png">
+        <source media="(max-width: 1323px)" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==" sizes="100%">
+        <img alt="Silhouette eines Steinhebers" id="figure-right" src="images/figure_right.png" title="Figure Right">
+    </picture>
     <img alt="Logo der Schweizermeisterschaft im Steinstossen und Steinheben 2021 in Wollerau" id="logo" src="images/logo.png" title="Logo STS">
     <article class="sponsors-block">
         <a href="https://www.env-afgn.ch/">
