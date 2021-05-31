@@ -128,8 +128,12 @@ section {
     margin-top: 32px;
 }
 
-.single-button-bar {
+.centered-button-bar {
     justify-content: center;
+}
+
+.button-bar.centered-button-bar button {
+   margin: 8px;
 }
 
 .button-bar button {
