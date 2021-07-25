@@ -123,6 +123,13 @@ section {
     padding: 16px;
 }
 
+.navigation-bar a {
+    margin: 16px;
+    color: #000000;
+    font-family: rift-soft-bold, sans-serif;
+    font-size: 1.25em;
+}
+
 .button-bar {
     padding: 0;
     margin-top: 32px;
@@ -214,6 +221,10 @@ footer a {
 
     #figure-left, #figure-right {
         display: none;
+    }
+
+    .navigation-bar {
+        justify-content: center;
     }
 
     @media only screen and (orientation: landscape) {
