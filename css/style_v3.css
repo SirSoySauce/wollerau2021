@@ -81,6 +81,10 @@ section {
     font-family: arial-nova-light, sans-serif;
 }
 
+.centered-text p {
+    text-align: center;
+}
+
 .text-page-block h2 {
     text-align: center;
     margin-bottom: 16px;
@@ -99,6 +103,40 @@ section {
 .text-page-block .full-size-image {
     width: 100%;
     margin: 1em 0;
+}
+
+.info-bar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 1em auto;
+    justify-content: space-evenly;
+}
+
+.info-bar .image-icon {
+    width: 40%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.info-bar .image-icon p {
+   text-align: center;
+    margin-top: 1em;
+}
+
+.info-bar .image-icon .icons {
+    display: flex;
+    justify-content: center;
+}
+
+.info-bar .image-icon .icons img {
+    width: 25%;
+}
+
+.info-bar .image-icon img {
+    width: 100%;
 }
 
 .google-maps-embedding {
@@ -140,7 +178,7 @@ section {
 }
 
 .button-bar.centered-button-bar button {
-   margin: 8px;
+    margin: 8px;
 }
 
 .button-bar button {
@@ -210,6 +248,10 @@ footer a {
     .sponsors-block, .google-maps-embedding {
         width: 100%;
         margin-top: 0;
+    }
+
+    .info-bar .image-icon {
+        width: 100%;
     }
 
     #logo {
